@@ -1,0 +1,14 @@
+$border-color: #979797;
+
+.input {
+    padding: 10px 17px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.input-search {
+    border-color: $border-color;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+$nav-link-color: #989898;
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+    &__nav {
+        list-style: none;
+        padding-left: 0;
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    &__item {
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 10px 0;
+        color: $nav-link-color;
+
+        &.-active {
+            font-weight: bold;
+            color: #fff;
+            border-bottom: 1px solid $nav-link-color;  
+        }
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__link {
+        color: inherit;
+    }
+
+    &__cart {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+}

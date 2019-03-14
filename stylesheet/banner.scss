@@ -1,0 +1,45 @@
+.banner {    
+    &__inner-content {
+        display: flex;
+    }
+
+    &__left-content {
+        display: flex;
+
+        aside {
+            align-self: flex-end;
+            margin-right: 100px;
+        }
+    }
+
+    &__slogan {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: #989898;
+        margin-bottom: 20px;
+
+        span {
+            color: #fff;
+        }
+    }
+
+    
+
+    header {
+       color: #fff;
+       line-height: 1.5;
+       margin-right: 120px;
+
+       h1 {
+           font-size: 3.1em;
+           margin-bottom: 100pxz;
+       }
+       
+       p {
+           border-left: 1px solid #fff;
+           padding-left: 35px;
+           font-size: 14px;
+           line-height: 1.8;
+       }
+    }
+}

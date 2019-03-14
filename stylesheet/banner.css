@@ -1,0 +1,49 @@
+.banner__inner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner__left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner__left-content aside {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 100px;
+}
+
+.banner__slogan {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #989898;
+  margin-bottom: 20px;
+}
+
+.banner__slogan span {
+  color: #fff;
+}
+
+.banner header {
+  color: #fff;
+  line-height: 1.5;
+  margin-right: 120px;
+}
+
+.banner header h1 {
+  font-size: 3.1em;
+  margin-bottom: 100pxz;
+}
+
+.banner header p {
+  border-left: 1px solid #fff;
+  padding-left: 35px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+/*# sourceMappingURL=banner.css.map */
